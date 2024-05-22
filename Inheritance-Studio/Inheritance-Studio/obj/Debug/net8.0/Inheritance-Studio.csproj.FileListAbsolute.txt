@@ -1,0 +1,14 @@
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.AssemblyInfoInputs.cache
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.AssemblyInfo.cs
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.csproj.CoreCompileInputs.cache
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\bin\Debug\net8.0\Inheritance-Studio.exe
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\bin\Debug\net8.0\Inheritance-Studio.deps.json
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\bin\Debug\net8.0\Inheritance-Studio.runtimeconfig.json
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\bin\Debug\net8.0\Inheritance-Studio.dll
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\bin\Debug\net8.0\Inheritance-Studio.pdb
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.dll
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\refint\Inheritance-Studio.dll
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.pdb
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\Inheritance-Studio.genruntimeconfig.cache
+C:\Users\lizar\OneDrive\Desktop\Inheritance-Studio\Inheritance-Studio\obj\Debug\net8.0\ref\Inheritance-Studio.dll
