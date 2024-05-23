@@ -1,20 +1,17 @@
 namespace Inheritance;
 public class TrueFalseQuestion : Question
 {
-
     //Field
     public bool CorrectAnswer = true;
 
     //Constructor
      public TrueFalseQuestion(string prompt, List<string> answers) : base(prompt, answers)  
     {  
-    
     }
 
     //Override
     public override bool CheckAnswer(List<int> selectedAnswers)
     {
- 
         return (selectedAnswers[0] == 0) == CorrectAnswer;
     }
 

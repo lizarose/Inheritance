@@ -4,11 +4,9 @@ class MultipleChoiceQuestion : Question
     //Field
     public char CorrectAnswer { get; set; }
 
-
     //Constructor
     public MultipleChoiceQuestion(string prompt, List<string> answers) : base(prompt, answers)  
     {  
-    
     }
 
     //Override
@@ -26,8 +24,3 @@ class MultipleChoiceQuestion : Question
     }
     //Method
 }
-
-
-   
-
-   

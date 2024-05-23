@@ -1,5 +1,3 @@
-
-
 namespace Inheritance;
 class CheckboxQuestion : Question
 {
@@ -15,13 +13,7 @@ class CheckboxQuestion : Question
     //Override
     public override bool CheckAnswer(List<int> selectedAnswers)
     {
-        //Checks for all correct answers && number of correct answers are selected (not any extra or missing any correct answers)
-        foreach (int correctOption in CorrectAnswers)
-        {
-            //if missing at least one correct answer -return false
-            if(!selectedAnswers.Contains(correctOption))
-                return false;
-        }
+        
         //comparing the correct amount of answers needed to be selected with what the user selected
         return CorrectAnswers.Count == selectedAnswers.Count;
     }

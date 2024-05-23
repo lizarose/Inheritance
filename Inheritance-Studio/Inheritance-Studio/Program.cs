@@ -19,7 +19,7 @@ class Program
         //Checkbox Question
         string q2Prompt = "Which programming languages are statically typed?";
         List<string> q2Answers = new List<string> { "0) Python", "1) Java", "2) C#", "3) JavaScript" }; //correct: Java, C# - 1, 2
-        List<int> q2CorrectAnswers = new List<int> { 1, 2 };
+        List<int> q2CorrectAnswers = new List<int> {1, 2};
         CheckboxQuestion q2 = new(q2Prompt, q2Answers, q2CorrectAnswers);
 
         //True False Question

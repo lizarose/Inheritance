@@ -1,6 +1,4 @@
-
 using System.Xml;
-
 namespace Inheritance;
 public class Quiz
 {
@@ -12,14 +10,9 @@ public class Quiz
     //Override
 
     //Method
-    public void AddQuestion(Question question)
-    {
-        questions.Add(question);
-    }
-
     public void RunQuiz()
     {
-        //Score Tracker
+        //*Score Tracker
         int totalQuestions = questions.Count;
         int totalCorrectAnswers = 0;
 
@@ -31,11 +24,21 @@ public class Quiz
             Console.Write("Enter your answer(s): ");
             //Read user's answers
             string userAnswers = Console.ReadLine();
-            
-            //Put user answers into list so it can be compared to correct
-            var selectedAnswers = userAnswers.Split(',').Select(int.Parse).ToList();
+            int results = 0;
+
+            //Taking user's answers and converting to int so can add to List to be compared
+            string[] strArr = userAnswers.Split(",");
+            List<int> intList = new();
+            foreach (string s in strArr)
+            {
+                int myInt;
+                if (int.TryParse(s, out myInt))
+                {
+                    intList.Add(myInt);
+                }
+            }
             //Comparing selected answers with the correct answers
-            var isCorrect = question.CheckAnswer(selectedAnswers);
+            bool isCorrect = question.CheckAnswer(intList);
            
             //Giving feedback to the user based on if they got the answer right
             if(isCorrect)
@@ -44,7 +47,7 @@ public class Quiz
             }
             Console.WriteLine(isCorrect ? "Correct!" : "Incorrect.");
         }
-        //Grade Quiz
+        //*Grade Quiz
         double percentage = (double)totalCorrectAnswers / totalQuestions * 100;
         string stars = "************************************";
 
